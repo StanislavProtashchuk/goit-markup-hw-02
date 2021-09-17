@@ -3,12 +3,69 @@
   --secondary-title-color: #212121;
   --primary-text-color: #757575;
   --secondary-text-color: #ffffff;
+  --third-text-color: #2196f3;
   --accent-color: #2196f3;
 }
 body {
-  font-family: "roboto", sans-serif;
+  font-family: 'roboto', sans-serif;
   letter-spacing: 0.03em;
 }
+
 .link {
   text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* FOOTER */
+.header {
+  background-color: #ffffff;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.primary-logo {
+  color: #2196f3;
+}
+
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-link:hover {
+  color: var(--accent-color);
+}
+
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.header-contact:hover {
+  color: var(--accent-color);
+}
+
+.header-contact:focus {
+  color: var(--accent-color);
 }
