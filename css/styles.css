@@ -11,7 +11,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ a{
   color: var(--accent-color);
 }
 
-.current{
+.current {
   color: var(--accent-color);
 }
 
@@ -74,121 +74,159 @@ a{
 
 /* Hero */
 
-.hero{
-  background-color: #2F303A;
-  font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: calc (60 / 44);
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;  
-color: #FFFFFF;
+.hero {
+  background-color: #2f303a;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc (60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.hero-button{
+.hero-button {
   background-color: #2196f3;
-  font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: calc (30 / 16);
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc (30 / 16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
   color: var(--secondary-text-color);
 }
 .hero-button:hover,
-.hero-button:focus{
-  background-color: #FFFFFF;
+.hero-button:focus {
+  background-color: #ffffff;
   color: var(--accent-color);
 }
 
 /*  */
 
-.secondary-title{
-  font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: calc (16 / 14);
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--secondary-title-color);
+.secondary-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc (16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
 }
 
-.secondary-title-description{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: calc (24 / 14);
-letter-spacing: 0.03em;
-color: #757575;
+.secondary-title-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc (24 / 14);
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
-.primary-title{
-  font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: calc (42 / 36);
-text-align: center;
-letter-spacing: 0.03em;
+.primary-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc (42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.people{
-  font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.03em;}
+.people {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
-.people-description{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;}
+.people-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
 /* Footer */
 
-footer{
-  background-color:#2F303A;
+footer {
+  background-color: #2f303a;
 }
 
-.footer-title{
+.footer-title {
   font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
 
-address{
+address {
   font-style: normal;
 }
 
-.adress{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: calc (24 / 14);
-letter-spacing: 0.03em;
-color: #FFFFFF;
+.adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc (24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .adress:hover,
-.adress:focus{
+.adress:focus {
   color: var(--accent-color);
+}
+
+/* Вторая страница */
+
+.option {
+  background-color: #f5f4fa;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc (26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+
+.option:hover,
+.option:focus {
+  background-color: #2196f3;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc (26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: calc (36 / 18);
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.card-title-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc (30 / 16);
+  letter-spacing: 0.03em;
+  color: #757575;
 }
