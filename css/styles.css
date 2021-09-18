@@ -28,10 +28,12 @@ a {
   background-color: #ffffff;
 }
 
-.header-logo {
-  font-weight: 700;
+.header-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
