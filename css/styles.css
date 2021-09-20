@@ -11,48 +11,40 @@ body {
   letter-spacing: 0.03em;
 }
 
-a {
-  text-decoration: none;
-}
-
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
 .list {
   list-style: none;
 }
 
-/* FOOTER */
-.header {
-  background-color: #ffffff;
-}
+/* HEADER */
 
-.header-title {
+.navigation-title {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: calc (31 / 26);
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
 
 .primary-logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.header-link {
-  font-style: normal;
+.navigation-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc (16 / 14);
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--secondary-title-color);
 }
 
-.header-link:hover,
-.header-link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: var(--accent-color);
 }
 
@@ -60,17 +52,16 @@ a {
   color: var(--accent-color);
 }
 
-.header-contact {
+.navigation-contact {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc (16 / 14);
   letter-spacing: 0.02em;
-
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
-.header-contact:hover,
-.header-contact:focus {
+.navigation-contact:hover,
+.navigation-contact:focus {
   color: var(--accent-color);
 }
 
@@ -78,19 +69,16 @@ a {
 
 .hero {
   background-color: #2f303a;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: calc (60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-title-color);
 }
 
 .hero-button {
-  background-color: #2196f3;
-  font-style: normal;
+  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: calc (30 / 16);
@@ -102,14 +90,13 @@ a {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #ffffff;
-  color: var(--accent-color);
+  background-color: #188ce8;
+  color: var(--primary-title-color);
 }
 
 /*  */
 
-.secondary-title {
-  font-style: normal;
+.fitures-title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc (16 / 14);
@@ -118,17 +105,22 @@ a {
   color: var(--secondary-title-color);
 }
 
-.secondary-title-description {
-  font-style: normal;
-  font-weight: normal;
+.fitures-description {
   font-size: 14px;
   line-height: calc (24 / 14);
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
-.primary-title {
-  font-style: normal;
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc (42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc (42 / 36);
@@ -137,7 +129,6 @@ a {
 }
 
 .people {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -146,13 +137,11 @@ a {
 }
 
 .people-description {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* Footer */
@@ -163,16 +152,11 @@ footer {
 
 .footer-title {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
-}
-
-address {
-  font-style: normal;
 }
 
 .adress {
@@ -181,7 +165,7 @@ address {
   font-size: 14px;
   line-height: calc (24 / 14);
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
 .adress:hover,
@@ -191,37 +175,35 @@ address {
 
 /* Вторая страница */
 
-.option {
+.filter {
   background-color: #f5f4fa;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: calc (26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--secondary-title-color);
   cursor: pointer;
 }
 
-.option:hover,
-.option:focus {
-  background-color: #2196f3;
-  font-style: normal;
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-color);
   font-weight: 500;
   font-size: 16px;
   line-height: calc (26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-title-color);
 }
 
 .card-title {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: calc (36 / 18);
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--secondary-title-color);
 }
 
 .card-title-description {
@@ -230,5 +212,5 @@ address {
   font-size: 16px;
   line-height: calc (30 / 16);
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
