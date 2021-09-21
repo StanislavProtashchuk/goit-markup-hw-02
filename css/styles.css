@@ -11,6 +11,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+button {
+  font-family: 'roboto', sans-serif;
+}
+
 .link {
   text-decoration: none;
   font-style: normal;
@@ -88,6 +92,7 @@ body {
   cursor: pointer;
   color: var(--secondary-text-color);
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
